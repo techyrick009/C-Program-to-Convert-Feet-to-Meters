@@ -1,0 +1,31 @@
+/*
+ *  Author: techyrick.com
+ */
+
+#include<stdio.h>
+//#include 
+
+void main() {
+
+  float meter;
+  float feet;
+  
+
+//    clrscr();
+
+	printf(" Program to convert Feet to Meter:  ");
+
+	printf("\n\n Enter Length in Feet  : ");
+	scanf("%f", &feet);
+    
+    meter = (feet/3.26);
+    
+    printf("\n\n %f Feet in Meter = %f  \n",feet,meter);
+
+
+
+//	getch();
+
+
+
+}
